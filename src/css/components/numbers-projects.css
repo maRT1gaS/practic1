@@ -1,0 +1,45 @@
+.numbers-projects {
+    background-color: var(--accent-color);
+}
+
+.numbers-projects__container {
+    padding: 100px 0;
+}
+
+.numbers-projects__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers-projects__item {
+    display: flex;
+    align-items: center;
+}
+
+.numbers-projects__img {
+    margin-right: 20px;
+}
+
+.numbers-projects__content {
+    color: var(--white-color);
+}
+
+.numbers-projects__number {
+    font-weight: 500;
+}
+
+@media (max-width: 1000px) {
+
+    .numbers-projects__items {
+        flex-wrap: wrap;
+    }
+
+    .numbers-projects__item {
+        flex-basis: 50%;
+        justify-content: center;
+    }
+
+    .numbers-projects__item:not(:nth-of-type(-n + 2)) {
+        margin-top: 30px;
+    }
+}

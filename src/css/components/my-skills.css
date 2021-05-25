@@ -1,0 +1,57 @@
+.my-skills {
+    padding: 105px 0 65px 0;
+}
+
+.my-skills__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-skills__content {
+    flex-basis: 445px;
+    margin-right: 150px;
+}
+
+.my-skills__items {
+    margin-top: 50px;
+}
+
+.my-skills__item:not(:first-child) {
+    margin-top: 30px;
+}
+
+.my-skills__progress-bar {
+    position: relative;
+    height: 3px;
+    background-color: var(--silver-color);
+}
+
+.my-skills__progress-bar::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 3px;
+    background-color: var(--accent-color);
+    content: '';
+}
+
+.my-avatar {
+    width: 555px;
+}
+
+@media (max-width: 1000px) {
+    .my-skills__container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .my-skills__content {
+        margin: 0;
+    }
+
+    .my-avatar {
+        margin-top: 50px;
+    }
+}

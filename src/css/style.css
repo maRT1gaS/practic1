@@ -1,0 +1,17 @@
+@import url('variables.css');
+@import url('fonts.css');
+@import url('global.css');
+@import url('overall.css');
+
+
+@import url('components/header.css');
+@import url('components/intro.css');
+@import url('components/about-me.css');
+@import url('components/numbers-projects.css');
+@import url('components/my-skills.css');
+@import url('components/how-i-work.css');
+@import url('components/work-examples.css');
+@import url('components/my-clients.css');
+@import url('components/feedback.css');
+@import url('components/footer.css');
+@import url('media-overall.css');

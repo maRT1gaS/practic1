@@ -1,0 +1,25 @@
+.my-clients__container {
+    padding: 20px 0 50px 0;
+}
+
+.my-clients__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+    .my-clients__item {
+        flex-basis: 48%;
+    }
+
+    .my-clients__item:not(:nth-of-type(even)) {
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 500px) {
+    .my-clients__item {
+        flex-basis: 100%;
+    }
+}
